@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'jenkinslave' }
+    agent { label 'jenkinslaves' }
     stages {
         stage('Fetch dependencies') {
         /* This stage pulls the latest nginx image from Dockerhub */
