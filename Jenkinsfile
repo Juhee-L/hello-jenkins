@@ -26,9 +26,9 @@ pipeline {
          /* Final stage of build; Push the 
             docker image to our OCI private Registry*/
         steps {
-            sh "sudo docker login -u 'REGISTRY USERNAME' -p 'REGISTRY PASSWORD' iad.ocir.io"
-            sh "sudo docker tag customnginx:1 iad.ocir.io/OCI_TENANCY/nginx:custom"
-            sh 'sudo docker push iad.ocir.io/OCI_TENANCY/nginx:custom'
+            sh "sudo docker login -u 'id468b3sbhpy/oracleidentitycloudservice/juhee.lee@oracle.com' -p 'FWjMb1FHM6Gk]_(f[yto' iad.ocir.io"
+            sh "sudo docker tag customnginx:1 iad.ocir.io/hditne/nginx:custom"
+            sh 'sudo docker push iad.ocir.io/hditne/nginx:custom'
             
            }
          }      
